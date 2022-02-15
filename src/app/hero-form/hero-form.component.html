@@ -3,22 +3,26 @@
 <div>
 
 <label>Nombre</label>
-<input type="text">
+<input type="text" id="name" name="name">
 <br>
 <br>
 
 <label>Nombre de Héroe</label>
-<input type="text">
+<input type="text" id="AlterEgo" name="AlterEgo">
 <br>
 <br>
 
 <label>Poder</label>
-<select></select>
+<select id="power" name="power"></select>
 <br>
 <br>
 
 <button type="submit">Enviar</button>
 
+<!--Añadimos los id y names para que cuando se le de a enviar se envien estos datos a las propiedades de la clase Hero.
+Dicha clase está añadida en la parte .ts para que pueda encontrar las propiedades.
 
+Faltan más cosas de angular ngForm , ngModel y la función para enviar
+-->
 
 </div>
