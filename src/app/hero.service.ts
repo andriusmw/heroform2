@@ -10,3 +10,5 @@ export class Hero {
 
   ) { }
 }
+
+// Indica que la clase Hero va a tener esas propiedades,
