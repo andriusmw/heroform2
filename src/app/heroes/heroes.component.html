@@ -2,6 +2,8 @@
 
 <h2>{{hero.name}} Detalles</h2>
 <div><span>id: </span>{{hero.id}}</div>
-<div><span>name: </span>{{hero.name}}</div>
+<div><span>name: </span> <input id="name" [(ngModel)]="hero.name" placeholder="name"></div>
 <div><span>Power: </span>{{hero.power}}</div>
-<div><span>AlterEgo:</span>{{hero.alterEgo}}</div>
+<div><span>AlterEgo:</span> <input id="alterEgo" [(ngModel)]="hero.alterEgo" placeholder="alterEgo"> </div>
+
+<!--PERMITIMOS cambiar el nombre del superhéroe  y su alterEgo por motivos de seguridad personal xD-->

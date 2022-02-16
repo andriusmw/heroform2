@@ -15,7 +15,8 @@ import { HeroesComponent } from './heroes/heroes.component'; //añadido para no 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule //añadido para el formulario en el futuro
   ],
   providers: [],
   bootstrap: [AppComponent]
